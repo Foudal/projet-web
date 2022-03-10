@@ -1,0 +1,40 @@
+.list-item {
+    margin: 0 10px;
+}
+
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.item-link {
+    color: black;
+    text-transform: uppercase;
+}
+
+.item-link {
+    text-decoration: none;
+    transition-property: all;
+    transition-duration: .6s;
+    transition-timing-function: ease;
+}
+
+.item-link:after {
+  backface-visibility: hidden;
+  border: 1px solid rgba(0, 0, 0, 0);
+  bottom: 0px;
+  content: "";
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  transition: all 280ms ease-in-out;
+  width: 0;
+}
+
+.item-link:hover:after {
+  backface-visibility: hidden;
+  border-color: rgb(0, 0, 0);
+  transition: width 350ms ease-in-out;
+  width: 100%;
+}

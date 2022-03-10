@@ -1,0 +1,13 @@
+.navcontainer {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    background-color: #fff;
+    box-shadow: 0 5px 20px -10px #000;
+}
+
+.mainpage {
+    margin-top: 55px;
+}
