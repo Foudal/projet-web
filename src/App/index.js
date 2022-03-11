@@ -1,5 +1,6 @@
 import './style.css';
 import NavBar from '../NavBar';
+import PostMessage from '../PostMessage';
 
 function App() {
     return (
@@ -8,7 +9,7 @@ function App() {
                 <NavBar />
             </div>
             <div className='mainpage'>
-                blablabla
+                <PostMessage />
             </div>
         </>
     );
